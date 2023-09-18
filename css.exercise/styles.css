@@ -1,0 +1,97 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    margin: 0 0 0.5rem;
+    font-size: 3rem;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.table-row.table-sm p {
+    padding: 0;
+}
+
+.table-sm .col {
+    flex-basis: 20%;
+}
+
+.table-sm .col:first-child {
+    flex-basis: 40%;
+}
+
+.table-row {
+    display: flex;
+    align-items: end;
+}
+
+.table-header p {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.table-header p:last-child {
+    margin-bottom: 0.25rem;
+}
+
+.table-row p {
+    margin: 0;
+    padding: 0.25rem;
+}
+
+.table-row .first {
+    flex-basis: 70%;
+}
+
+.table-row .second,
+.table-row .third {
+    flex-basis: 15%;
+    text-align: right;
+}
+
+.indent {
+    margin-left: 1rem;
+}
+
+.table-sm .indent {
+    position: relative;
+    left: 0.5rem;
+}
+
+.justify-right {
+    margin-left: auto;
+}
+
+.border-bottom-0 {
+    border-bottom: 0;
+}
+
+.border-top-sm {
+    border-top: 1px solid black;
+}
+
+.border-bottom-sm {
+    border-bottom: 1px solid black;
+}
+
+.border-bottom-md {
+    border-bottom: 3px solid black;
+}
+
+.border-bottom-lg {
+    border-bottom: 10px solid black;
+}
+
+.m0 {
+    margin: 0;
+}
+
+.ml3 {
+    margin-left: 3rem;
